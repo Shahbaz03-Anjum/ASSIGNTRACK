@@ -5,9 +5,10 @@
   "description": "AssignTrack student assignment platform",
   "type": "commonjs",
   "scripts": {
-    "dev": "node --watch server.js",
-    "start": "node server.js"
-  },
+  "dev": "node --watch server.js",
+  "start": "node server.js",
+  "test": "node --test"
+},
   "engines": {
     "node": ">=18"
   }
